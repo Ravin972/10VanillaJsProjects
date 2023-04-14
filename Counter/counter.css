@@ -1,0 +1,106 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(to bottom right, #2c3e50, #3498db);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Main styles */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  #value {
+    display: block;
+    font-size: 72px;
+    font-weight: bold;
+    color: #1abc9c;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #1abc9c;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+  
+  .decrease {
+    background-color: #e74c3c;
+  }
+  
+  .reset {
+    background-color: #f1c40f;
+  }
+  
+  .increase {
+    background-color: #2ecc71;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  
