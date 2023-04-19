@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="tabs.css" />
+</head>
+
+<body>
+    <section class="section">
+        <div class="title">
+            <h2>about</h2>
+            <p>
+                Debugging and software architecture design are crucial sections in a programmer's workflow.
+            </p>
+        </div>
+        <div class="about-center section-center">
+            <article class="about-img">
+                <img src="./hero.jpeg" alt="image">
+            </article>
+            <article class="about">
+                <!-- btn container -->
+                <div class="btn-container">
+                    <button class="tab-btn active" data-id="history">history</button>
+                    <button class="tab-btn" data-id="vision">vision</button>
+                    <button class="tab-btn" data-id="goals">goals</button>
+                </div>
+                <div class="about-content">
+                    <!-- single item -->
+                    <div class="content active" id="history">
+                        <h4>history</h4>
+                        <p>
+                            The importance of debugging and software architecture design has been recognized since the
+                            early days of computer programming. As software development has become more complex, these
+                            sections have become even more critical for ensuring that programs are error-free and
+                            function as intended. Today, programmers continue to rely heavily on these sections as part
+                            of their workflow.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="vision">
+                        <h4>vision</h4>
+                        <p>
+                            As technology advances and software continues to grow more complex, the role of programmers
+                            will become even more important. A strong focus on effective debugging and software
+                            architecture design will be essential to ensure that software is reliable, efficient, and
+                            secure. By prioritizing these sections in their workflow, programmers can help drive
+                            innovation and create software that meets the needs of users in a rapidly changing
+                            technological landscape.
+                        </p>
+                        <ul>
+                            <li>1. Develop innovative and user-friendly software through effective debugging and
+                                software architecture design.</li>
+                            <li>2. Create reliable, efficient, and secure software that meets the needs of clients or
+                                end-users.</li>
+                            <li>3. Continuously learn and adapt to new technologies to stay ahead in a rapidly evolving
+                                technological landscape.</li>
+                        </ul>
+                    </div>
+                    <!-- end of single item -->
+                    <!-- single item -->
+                    <div class="content" id="goals">
+                        <h4>goals</h4>
+                        <p>
+                            The goal of programmers is to write high-quality, error-free software that meets the needs
+                            of users. Prioritizing effective debugging and software architecture design helps achieve
+                            this goal by ensuring that software is reliable, efficient, and secure.
+                        </p>
+                    </div>
+                    <!-- end of single item -->
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- js -->
+    <script src="tabs.js"></script>
+</body>
+
+</html>
